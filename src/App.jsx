@@ -2,6 +2,7 @@ import { BrowserRouter,Routes,Route } from "react-router-dom"
 import Login from "./pages/Login"
 import ProtectedRoute from "./routes/ProtectedRoute"
 import AddRestaurant from "./components/RestaurantCard"
+import AdminDashboard from "./pages/admin/AdminDashboard"
 function App(){
 
   return(
