@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { useNavigate } from "react-router-dom";
-
+import { RestaurantContext } from "../../context/RestaurantContext";
+import RestaurantCard from "../../components/RestaurantCard";
 function AdminDashboard() {
   const { restaurants, deleteRestaurant } = useContext(RestaurantContext);
   const navigate = useNavigate();

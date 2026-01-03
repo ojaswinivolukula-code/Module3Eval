@@ -25,7 +25,7 @@ function App() {
             }
           />
           <Route
-            path="/admin/add"
+            path="/admin/addrestaurant"
             element={
               <ProtectedRoute role="admin">
                 <AddRestaurant />
@@ -33,7 +33,7 @@ function App() {
             }
           />
           <Route
-            path="/admin/update"
+            path="/admin/updaterestaurant"
             element={
               <ProtectedRoute role="admin">
                 <UpdateRestaurant />
