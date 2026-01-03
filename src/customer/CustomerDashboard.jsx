@@ -1,6 +1,8 @@
 import { RestaurantContext } from "../context/RestaurantContext";
 import RestaurantCard from "../components/RestaurantCard";
+import { useContext } from "react";
 function CustomerDashboard() {
+    const {restaurants}=useContext(RestaurantContext)
   return (
     <div
       style={{
